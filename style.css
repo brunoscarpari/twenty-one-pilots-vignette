@@ -106,7 +106,7 @@ section.image > p{
 
 section#img01{
     background-image: url('imagens/pic1.jpg');
-    background-position:right;
+    background-position: center;
     
 }
 
@@ -152,9 +152,7 @@ footer > p{
         font-size: 12vw; /* Ajuste de tamanho de fonte */
     }
     
-    section.image {
-        background-attachment: scroll; /* Desativado fundo fixo em telas menores */
-    }
+    
 }
 
 @media (max-width: 480px) {
@@ -170,6 +168,8 @@ footer > p{
 @media (max-width: 768px) {
     #img01 {
         background-image: url('pic1small.jpg');
+        background-position: right center;
+
     }
     #img02 {
         background-image: url('pic2small.jpg');
