@@ -80,13 +80,13 @@ section.image > p{
 
 section#img01{
     background-image: url('imagens/pic1.jpg');
-    background-position: right center;
+    background-position: center;
     
 }
 
 section#img02{
     background-image: url('imagens/pic2.jpg');
-    background-position: right center;
+    background-position: center;
     
 }
 
@@ -103,4 +103,40 @@ footer{
 
 footer > p{
     padding : 4px;
+}
+@media (max-width: 1200px) {
+    section {
+        font-size: 3.5vw; /* Ajuste de tamanho de fonte */
+        padding-left: 30px; /* Ajuste de padding */
+    }
+    
+    header > h1 {
+        font-size: 8vw; /* Ajuste de tamanho de fonte */
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        font-size: 5vw; /* Ajuste de tamanho de fonte */
+        padding-left: 20px; /* Ajuste de padding */
+    }
+    
+    header > h1 {
+        font-size: 12vw; /* Ajuste de tamanho de fonte */
+    }
+    
+    section.image {
+        background-attachment: scroll; /* Desativado fundo fixo em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        font-size: 6vw; /* Ajuste de tamanho de fonte */
+        padding-left: 10px; /* Ajuste de padding */
+    }
+    
+    header > h1 {
+        font-size: 14vw; /* Ajuste de tamanho de fonte */
+    }
 }
