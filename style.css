@@ -16,6 +16,7 @@
 }
 
 
+
 html, body{
     min-height: 100%vh;
 }
@@ -48,8 +49,19 @@ a{
 a:hover{
     text-decoration: underline;
 }
-div{
-    background-color: #D44233;
+.normal1 {
+    position: relative; /* Para permitir a posição absoluta do iframe */
+    color: #D44233;
+    background-color: rgb(31, 31, 31);
+    box-shadow: unset 6px 6px 15px 0px rgba(0, 0, 0, 0.418);;
+}
+
+.normal1 iframe {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding-right: 50px;
 }
 
 section{
