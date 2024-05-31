@@ -125,9 +125,7 @@ footer > p{
         font-size: 12vw; /* Ajuste de tamanho de fonte */
     }
     
-    section.image {
-        background-attachment: scroll; /* Desativado fundo fixo em telas menores */
-    }
+    
 }
 
 @media (max-width: 480px) {
