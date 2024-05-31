@@ -167,3 +167,11 @@ footer > p{
         font-size: 14vw; /* Ajuste de tamanho de fonte */
     }
 }
+@media (max-width: 768px) {
+    #img01 {
+        background-image: url('imagem-menor1.jpg');
+    }
+    #img02 {
+        background-image: url('imagem-menor2.jpg');
+    }
+}
