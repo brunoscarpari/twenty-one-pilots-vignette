@@ -20,7 +20,7 @@ html, body{
     min-height: 100%vh;
 }
 header{
-    background-color: #E03D2E;
+    background-color: #D44233;
     color: #F7E200;
     text-align: center;
     padding: 0;
@@ -36,6 +36,7 @@ header > h1{
 header > p{
     padding-bottom: 20px;
     margin-top: 0 ;
+    font-size: 20px;
 }
 
 a{
@@ -47,6 +48,9 @@ a{
 a:hover{
     text-decoration: underline;
 }
+div{
+    background-color: #D44233;
+}
 
 section{
     padding-top: 10vh ;
@@ -54,12 +58,13 @@ section{
     line-height: 2em;
     padding-left: 50px;
     font-family: var(--font1);
-    font-size: 4vw;
+    font-size: 2vw;
 }
 
 section.normal{
-    color: #E03D2E;
+    color: #D44233;
     background-color: rgb(31, 31, 31);
+    box-shadow: unset 6px 6px 15px 0px rgba(0, 0, 0, 0.418);
 }
 
 section.image{
@@ -95,7 +100,7 @@ section >p {
 }
 
 footer{
-    background-color: #E03D2E;
+    background-color: #D44233;
     text-align: center;
     color: #F7E200;
     font-size: 2vw;
@@ -103,38 +108,4 @@ footer{
 
 footer > p{
     padding : 4px;
-}
-@media (max-width: 1200px) {
-    section {
-        font-size: 3.5vw; /* Ajuste de tamanho de fonte */
-        padding-left: 30px; /* Ajuste de padding */
-    }
-    
-    header > h1 {
-        font-size: 8vw; /* Ajuste de tamanho de fonte */
-    }
-}
-
-@media (max-width: 768px) {
-    section {
-        font-size: 5vw; /* Ajuste de tamanho de fonte */
-        padding-left: 20px; /* Ajuste de padding */
-    }
-    
-    header > h1 {
-        font-size: 12vw; /* Ajuste de tamanho de fonte */
-    }
-    
-    
-}
-
-@media (max-width: 480px) {
-    section {
-        font-size: 6vw; /* Ajuste de tamanho de fonte */
-        padding-left: 10px; /* Ajuste de padding */
-    }
-    
-    header > h1 {
-        font-size: 14vw; /* Ajuste de tamanho de fonte */
-    }
 }
